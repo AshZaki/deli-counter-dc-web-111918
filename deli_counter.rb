@@ -4,7 +4,7 @@ def line(current_line)
   elsif
     curr = "The line is currently: "
     
-    current_line.push(#{current_line}")
+    current_line.each_with_index
     return katz_dali
   end
 end
