@@ -11,6 +11,5 @@ def line(current_line)
 end
 
 def take_a_number(line,name)
-  line =[]
  puts "Welcome, #{name}. You are number #{line.length} in line."
 end
