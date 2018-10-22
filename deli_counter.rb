@@ -4,7 +4,7 @@ def line(current_line)
   elsif
     curr = "The line is currently: "
     current_line.each_with_index do |line,index|
-    curr += "#{index + 1}. #{line}"
+    curr += "#{index + 1}. #{line} "
     
     end
     puts "#{curr}"
