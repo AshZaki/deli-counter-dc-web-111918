@@ -11,6 +11,5 @@ def line(current_line)
 end
 
 def take_a_number(line,name)
-  katz_dail = []
-  katz_dail.push(name)
+ puts ""
 end
