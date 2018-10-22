@@ -7,6 +7,6 @@ def line(current_line)
     curr += "#{index + 1}. #{line}"
     
     end
-    return curr
+    puts "#{curr}"
   end
 end
