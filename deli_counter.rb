@@ -6,6 +6,6 @@ def line(current_line)
     current_line.each_with_index do {|line,index|
     curr += "#{index + 1}. #{line}"
     }
-   
   end
+  return curr
 end
