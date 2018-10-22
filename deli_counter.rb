@@ -5,5 +5,4 @@ def line(current_line)
   elsif current_line > 0
     puts "The line is currently:#{current}"
   end
-  return katz_dali
 end
