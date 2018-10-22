@@ -3,9 +3,9 @@ def line(current_line)
     puts "The line is currently empty." 
   elsif
     curr = "The line is currently: "
-    current_line.each_with_index do {|line,index|
+    current_line.each_with_index do |line,index|
     curr += "#{index + 1}. #{line}"
-    }
+    
     end
     return curr
   end
